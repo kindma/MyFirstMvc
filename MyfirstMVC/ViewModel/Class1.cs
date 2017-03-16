@@ -7,5 +7,6 @@ namespace MyfirstMVC.ViewModel
 {
     public class Class1
     {
+
     }
 }

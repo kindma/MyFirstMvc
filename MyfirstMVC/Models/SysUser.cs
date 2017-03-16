@@ -7,5 +7,10 @@ namespace MyfirstMVC.Models
 {
     public class SysUser
     {
+        public int ID { set; get; }
+        public string UserName { get; set; }
+        public string PassWord { get; set; }
+        public string Email { get; set; }
+        public ICollection<SysUserRole> SysUserRoles { get; set; }
     }
 }
