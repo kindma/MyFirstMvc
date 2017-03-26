@@ -20,6 +20,14 @@ namespace MyfirstMVC.Controllers
             return View();
         }
 
+        [HttpPost]
+
+        public ActionResult Login(FormCollection C)
+        {
+            return View();
+        }
+
+
 
     }
 }
